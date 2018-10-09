@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .sucursales{
+    display: flex;
+    justify-content: space-around;
+}
+.footer .sucursal_adicional{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
