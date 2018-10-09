@@ -24,11 +24,13 @@ class Inferior extends React.Component {
           <Button type="primary" style={styles.margins} disabled>Sucursal 1</Button>
           <Button type="primary" style={styles.margins} disabled>Sucursal 2</Button>
           <Button type="primary" style={styles.margins} disabled>Sucursal 3</Button>  
-          <Button type="primary" style={styles.margins} shape="circle" size="26px" disabled><Icon type="plus" style={{fontSize: '26px'}} /></Button> 
+         
        </div>
       
       <div className="sucursal_adicional">
-        <Icon type="star" theme="filled" style={{color:'#FFBF00',fontSize: '26px', marginRight:"10px"}}/><Icon type="lock" theme="filled" style={{color:'#000000',fontSize: '26px'}} /> Añadir
+        <Button type="primary" style={styles.margins} shape="circle" size="26px" disabled><Icon type="plus" style={{fontSize: '26px'}} /></Button> 
+        <Icon type="star" theme="filled" style={{color:'#FFBF00',fontSize: '26px', marginRight:"10px"}}/>
+        <Icon type="lock" theme="filled" style={{color:'#000000',fontSize: '26px',  marginRight:"10px"}} /> Añadir
       </div>
      
      
