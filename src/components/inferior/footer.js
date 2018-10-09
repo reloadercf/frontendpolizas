@@ -22,8 +22,6 @@ class Inferior extends React.Component {
        <div className="sucursales">
           <Button type="dashed"  style={styles.margins} >General</Button>
           <Button type="primary" style={styles.margins} disabled>Sucursal 1</Button>
-          <Button type="primary" style={styles.margins} disabled>Sucursal 2</Button>
-          <Button type="primary" style={styles.margins} disabled>Sucursal 3</Button>  
          
        </div>
       
